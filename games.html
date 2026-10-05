@@ -1,5 +1,7 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Assignments</title>
 
@@ -119,10 +121,14 @@ h1{
 
 <div class="container">
 
-    <h1>Games and Apps</h1>
+    <h1>Games And Apps</h1>
     <p class="subtitle">Choose a Workstation to Work at.</p>
 
-    <input type="text" id="search" placeholder="Search Games Here">
+    <input
+        type="text"
+        id="search"
+        placeholder="Search Games Here"
+    >
 
     <div id="results"></div>
 
@@ -155,6 +161,14 @@ h1{
         <button class="btn" onclick="window.location.href='retrobowl.html'">
             Retro Bowl
         </button>
+        
+        <button class="btn" onclick="window.open('https://forms.gle/haqah3cYdNXBmgoz8','_blank')">
+            Request Games
+        </button>
+
+        <button class="btn" onclick="window.location.href='2040.html'">
+            2040
+        </button>
 
     </div>
 
@@ -169,6 +183,10 @@ const games = [
 {
     name: "Hollow Knight",
     link: "hollowknight.html"
+},
+{
+    name: "2040",
+    link: "2040.html"
 },
 {
     name: "Minecraft",
@@ -226,5 +244,5 @@ searchBar.addEventListener("input", function(){
 });
 </script>
 
-
-</body></html>
+</body>
+</html>
